@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8cm;
+    color: #ffffff;
+}
+
+.pimg1 {
+    background-image: url(./summer.jpg);
+    min-height: 100%;
+
+}
+
+.pimg2 {
+    background-image: url(./rainy.jpg);
+    min-height: 100%;
+
+}
+
+.pimg3 {
+    background-image: url(./autumn.jpg);
+    min-height: 100%;
+
+}
+
+.pimg4 {
+    background-image: url(./winter.jpg);
+    min-height: 100%;
+
+}
+
+.pimg5 {
+    background-image: url(./spring.jpg);
+    min-height: 100%;
+
+}
+
+
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+
+}
+
+.textBg {
+    background-color: lavender;
+    color: rgb(206, 160, 206);
+    padding: 20px;
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
+
+
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+
+    background-color: transparent;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+
+.imag-cap>img {
+    height: 150px;
+}
+
+.imag-cap>h1 {
+    margin-top: -20px;
+    font-size: 1.15rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
